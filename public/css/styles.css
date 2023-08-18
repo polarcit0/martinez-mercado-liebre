@@ -1,0 +1,81 @@
+.bg-yellow{
+    background-color:#EAC926;
+}
+
+.bg-light-grey{
+    background-color:#ebebeb;
+}
+
+.bg-white{
+    background-color:#ffffff
+}
+
+.bg-blue{
+    background-color:#03264C;
+}
+
+.c-white{
+    color:white
+}
+
+.c-grey{
+    color:#666;
+    opacity:0.5;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.precios-18{
+    font-size:18px
+}
+
+.descuentos-16{
+    font-size:16px
+}
+
+.titulares{
+    font-size:24px
+}
+
+.descripciones{
+    font-size:16px
+}
+
+.cuerpos-de-texto{
+    font-size:12px
+}
+
+.sacar-subrayado{
+    text-decoration:none;
+    color:#666;
+}
+
+.hamburguer-menu{
+    text-align:center
+}
+
+.t-center{
+    text-align:center
+}
+
+.t-left{
+    text-align:left
+}
+
+.tamaño-icono{
+    font-size:2em;
+}
+
+.tamaño-12{
+    font-size:12px
+}
+
+.interlineado-precios{
+    line-height:0.2px;
+}
+
+.interlineado-icono-inferior{
+    line-height-step:10px;
+}
