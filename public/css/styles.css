@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    margin:0
+    margin:0;
+    padding:0
 }
 
 body{
@@ -34,6 +35,23 @@ ul{
 .c-grey{
     color:#666;
     opacity:0.5;
+}
+
+.c-green{
+    color:#39b54a;
+}
+
+.c-lightblue{
+    color: #1259c3;
+}
+
+.menu-hamburguesa{
+    background-color:#1259c3;
+    color:white;
+    font-size:2em;
+    padding:10px;
+    margin-bottom:20px;
+    border-radius:5px;
 }
 
 .precios-18{
@@ -89,20 +107,44 @@ ul{
     width:50%;
 }
 
+.ancho-90{
+    width:90%;
+}
+
 .p-0{
     padding:0;
 }
 
-.p-10{ 
-    padding:10px
+.p-10{
+    padding:10px;
+}
+
+.p-15{ 
+    padding:15px
 }
 
 .p-20{
     padding:20px
 }
 
+.p-left{
+    padding-left:8px
+}
+
+.m-auto{
+    margin:auto;
+}
+
 .m-10{
     margin-bottom:10px;
+}
+
+.m-top{
+    margin-top:10px
+}
+
+.p-bottom{
+    padding-bottom:10px;
 }
 
 .m-tb-10{
@@ -115,5 +157,45 @@ ul{
     margin-bottom:20px;
 }
 .imagen-tamaño{
-    width:100vw;
+    width:90vw;
+}
+
+.border-grey{
+    border: solid 1px #ebebeb;
+}
+
+.icono-track{
+    color: green;
+    border: green solid 1px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.ocultar{
+    display:none;
+}
+
+@media(min-width:360px) {
+    /*tablets*/
+
+    .md-nav{
+        display:contents
+    }
+
+    .md-descipcion{
+        display:contents;
+    }
+
+    .md-sombra{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .md-menu-hamburguesa{
+        display:none;
+    }
+}
+
+@media(min-width:769px) {
+     /*desktop*/
+
 }
