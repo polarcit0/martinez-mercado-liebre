@@ -1,3 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin:0
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
 .bg-yellow{
     background-color:#EAC926;
 }
@@ -21,10 +34,6 @@
 .c-grey{
     color:#666;
     opacity:0.5;
-}
-
-body{
-    font-family: 'Roboto', sans-serif;
 }
 
 .precios-18{
@@ -52,10 +61,6 @@ body{
     color:#666;
 }
 
-.hamburguer-menu{
-    text-align:center
-}
-
 .t-center{
     text-align:center
 }
@@ -78,4 +83,37 @@ body{
 
 .interlineado-icono-inferior{
     line-height-step:10px;
+}
+
+.ancho-50{
+    width:50%;
+}
+
+.p-0{
+    padding:0;
+}
+
+.p-10{ 
+    padding:10px
+}
+
+.p-20{
+    padding:20px
+}
+
+.m-10{
+    margin-bottom:10px;
+}
+
+.m-tb-10{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.m-tb-20{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.imagen-tamaño{
+    width:100vw;
 }
