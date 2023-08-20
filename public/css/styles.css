@@ -50,7 +50,6 @@ ul{
     color:white;
     font-size:2em;
     padding:10px;
-    margin-bottom:20px;
     border-radius:5px;
 }
 
@@ -95,20 +94,28 @@ ul{
     font-size:12px
 }
 
-.interlineado-precios{
-    line-height:0.2px;
-}
-
 .interlineado-icono-inferior{
     line-height-step:10px;
+}
+
+.ancho-30{
+    width:30%
 }
 
 .ancho-50{
     width:50%;
 }
 
+.ancho-70{
+    width:70%;
+}
+
 .ancho-90{
-    width:90%;
+    width:90vw;
+}
+
+.ancho-100{
+    width:100%;
 }
 
 .p-0{
@@ -127,6 +134,14 @@ ul{
     padding:20px
 }
 
+.p-bottom{
+    padding-bottom:10px;
+}
+
+.p-rigth{
+    padding-right:8px;
+}
+
 .p-left{
     padding-left:8px
 }
@@ -140,11 +155,7 @@ ul{
 }
 
 .m-top{
-    margin-top:10px
-}
-
-.p-bottom{
-    padding-bottom:10px;
+    margin-top:20px
 }
 
 .m-tb-10{
@@ -156,8 +167,9 @@ ul{
     margin-top:20px;
     margin-bottom:20px;
 }
+
 .imagen-tamaño{
-    width:90vw;
+    width:100%;
 }
 
 .border-grey{
@@ -165,25 +177,50 @@ ul{
 }
 
 .icono-track{
+    font-size: 16px;
     color: green;
     border: green solid 1px;
     border-radius: 50%;
     padding: 5px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: -15px;
 }
 
 .ocultar{
     display:none;
 }
 
-@media(min-width:360px) {
+.relative{
+    position: relative;
+}
+
+.flex{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.container-1{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    text-align:right;
+}
+
+
+
+
+@media(min-width:768px) {
     /*tablets*/
 
     .md-nav{
-        display:contents
+        display:block
     }
 
-    .md-descipcion{
-        display:contents;
+    .md-descripcion{
+        display:block;
     }
 
     .md-sombra{
@@ -193,9 +230,60 @@ ul{
     .md-menu-hamburguesa{
         display:none;
     }
+
+    .md-tamaño{
+        width: 45%;
+    }
+
+    .md-ancho{
+        width: 33%;
+    }
+
+    .container-1{
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        text-align: center;
+        margin-bottom:20px
+    }
+
+    .container-1 p{
+        font-size: 16px;
+    }
+
+    .container-2{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+    }
+
+    .nav-container{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .nav-container ul{
+        display: flex;
+    }
+
+    .nav-container li{
+        margin: 0 10px;
+        font-size:16px
+    }
+
 }
 
-@media(min-width:769px) {
+@media(min-width:1280px) {
      /*desktop*/
+
+    .md-tamaño{
+        width: 23%;
+    }
+
+    .container-2{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+    }
 
 }
