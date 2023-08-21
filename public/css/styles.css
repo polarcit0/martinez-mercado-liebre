@@ -78,6 +78,10 @@ ul{
     color:#666;
 }
 
+.negrita{
+    font-weight: bold;
+}
+
 .t-center{
     text-align:center
 }
@@ -146,6 +150,10 @@ ul{
     padding-left:8px
 }
 
+.p-tb{
+    padding:10px 0px;
+}
+
 .m-auto{
     margin:auto;
 }
@@ -158,6 +166,9 @@ ul{
     margin-top:20px
 }
 
+.m-rigth{
+    margin-right: 10px;
+}
 .m-tb-10{
     margin-top:10px;
     margin-bottom:10px;
@@ -174,6 +185,10 @@ ul{
 
 .border-grey{
     border: solid 1px #ebebeb;
+}
+
+.relative{
+    position: relative;
 }
 
 .icono-track{
@@ -193,24 +208,74 @@ ul{
     display:none;
 }
 
-.relative{
-    position: relative;
-}
-
 .flex{
     display:flex;
     flex-wrap:wrap;
+}
+
+.flex-grow {
+    flex-grow: 1;
 }
 
 .container-1{
     display:flex;
     flex-wrap: wrap;
     justify-content:space-between;
-    text-align:right;
 }
 
+.a-self{
+    align-self: center;
+}
 
+.creat-form{
+    margin-top:40px;
+    margin-bottom:40px;
+    padding:20px;
+}
 
+.campo-form{
+    margin-bottom:20px;
+    text-align: center;
+}
+
+.campo-form label{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.campo{
+    width:100%;
+    padding:5px;
+    border:solid 1px #ebebeb;
+    border-radius: 5px;
+    height:35px;
+    text-align: center;
+}
+
+.container-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button-form{
+    width: 20%;
+    margin:10px;
+    border-radius: 5px;
+    border-color: #ebebeb;
+}
+
+.b-radius{
+    border-radius: 5px;
+}
+
+.b-none {
+    border: none;
+}
+
+.ejemplo{
+    border: solid 2px red;
+}
 
 @media(min-width:768px) {
     /*tablets*/
@@ -236,15 +301,16 @@ ul{
     }
 
     .md-ancho{
-        width: 33%;
+        width: 27%;
     }
 
     .container-1{
         display:flex;
+        flex-wrap: wrap;
         justify-content:space-around;
         align-items: center;
         text-align: center;
-        margin-bottom:20px
+        margin-bottom:20px;
     }
 
     .container-1 p{
@@ -268,16 +334,33 @@ ul{
 
     .nav-container li{
         margin: 0 10px;
-        font-size:16px
+        font-size:14px
+    }
+
+    .md-width-form{
+        width: 70%;
     }
 
 }
 
+
 @media(min-width:1280px) {
      /*desktop*/
 
+    .container-1{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        text-align: center;
+        margin-bottom:20px;
+    }
+
     .md-tamaño{
         width: 23%;
+    }
+
+    .md-ancho{
+        width:33%;
     }
 
     .container-2{
@@ -286,4 +369,8 @@ ul{
         justify-content:space-between;
     }
 
+    .nav-container li{
+        margin: 0 10px;
+        font-size:16px
+    }
 }
