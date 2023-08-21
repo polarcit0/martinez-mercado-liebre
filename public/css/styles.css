@@ -78,10 +78,6 @@ ul{
     color:#666;
 }
 
-.negrita{
-    font-weight: bold;
-}
-
 .t-center{
     text-align:center
 }
@@ -96,10 +92,6 @@ ul{
 
 .tamaño-12{
     font-size:12px
-}
-
-.interlineado-icono-inferior{
-    line-height-step:10px;
 }
 
 .ancho-30{
@@ -273,23 +265,17 @@ ul{
     border: none;
 }
 
-.ejemplo{
-    border: solid 2px red;
+.negrita{
+    font-weight: bold;
 }
 
-@media(min-width:768px) {
+
+@media(min-width:481px) {
     /*tablets*/
 
     .md-nav{
-        display:block
-    }
-
-    .md-descripcion{
         display:block;
-    }
-
-    .md-sombra{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        margin:40px 0px 10px
     }
 
     .md-menu-hamburguesa{
@@ -301,7 +287,7 @@ ul{
     }
 
     .md-ancho{
-        width: 27%;
+        width: 30%;
     }
 
     .container-1{
@@ -373,4 +359,37 @@ ul{
         margin: 0 10px;
         font-size:16px
     }
+
+    .product:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100)
+    }
+
+    .product:hover .descripciones {
+        display:block;
+        font-weight: bold
+    }
+
+    .b-login:hover{
+        background-color:#0022AA;
+        color:white
+    }
+
+    .f-footer{
+        display: flex;
+        margin:20px 5px 40px
+    }
+
+    .md-c-icono:hover{
+        color:#26c9d8
+    }
+
+    .icono-track{
+        transition-duration:1200ms;
+    }
+
+    .icono-track:hover{
+        transform: rotate(-90deg)
+    }
+
 }
+
