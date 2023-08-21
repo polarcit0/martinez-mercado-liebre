@@ -68,7 +68,7 @@
     <form action="/" method="GET" class="creat-form ancho-100 m-auto md-width-form">
         <div class="campo-form"> 
             <label class="negrita">Nombre y apellido</label>
-            <input type="text" name="nombreYApellido" class="campo" required>
+            <input type="text" name="nombreYApellido" class="campo" minlength="5" required>
         </div>
     
         <div class="campo-form">
@@ -83,7 +83,7 @@
     
         <div class="campo-form">
             <label class="negrita">Domicilio</label>
-            <input type="text" name="domicilio" class="campo" required>
+            <input type="text" name="domicilio" class="campo" minlength="5" required>
         </div>
     
         <div class="campo-form">
@@ -139,12 +139,12 @@
     
         <div class="campo-form">
             <label class="negrita">Contraseña</label>
-            <input type="password" name="contraseña" class="campo" required>
+            <input type="password" name="contraseña" minlength="8" class="campo" required>
         </div>
     
         <div class="campo-form">
             <label class="negrita">Confirmar contraseña</label>
-            <input type="password" name="confirmarContraseña" class="campo" >
+            <input type="password" name="confirmarContraseña" minlength="8" class="campo" >
         </div>
     
         <div class="t-center">
