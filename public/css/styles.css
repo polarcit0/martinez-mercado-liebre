@@ -106,6 +106,10 @@ ul{
     width:70%;
 }
 
+.ancho-80{
+    width: 85%;
+}
+
 .ancho-90{
     width:90vw;
 }
@@ -161,6 +165,7 @@ ul{
 .m-rigth{
     margin-right: 10px;
 }
+
 .m-tb-10{
     margin-top:10px;
     margin-bottom:10px;
@@ -226,7 +231,7 @@ ul{
 }
 
 .campo-form{
-    margin-bottom:20px;
+    margin-bottom:35px;
     text-align: center;
 }
 
@@ -290,10 +295,14 @@ ul{
         width: 30%;
     }
 
+    .m-left{
+        margin-left: 30px;
+    }
+
     .container-1{
         display:flex;
         flex-wrap: wrap;
-        justify-content:space-around;
+        justify-content:space-between;
         align-items: center;
         text-align: center;
         margin-bottom:20px;
@@ -333,9 +342,13 @@ ul{
 @media(min-width:1280px) {
      /*desktop*/
 
+    .m-left{
+        margin-left: 10px;
+    }
+
     .container-1{
         display:flex;
-        justify-content:space-between;
+        justify-content:space-around;
         align-items: center;
         text-align: center;
         margin-bottom:20px;
@@ -347,6 +360,10 @@ ul{
 
     .md-ancho{
         width:33%;
+    }
+
+    .md-width-form{
+        width: 60%;
     }
 
     .container-2{
